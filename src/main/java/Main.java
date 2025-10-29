@@ -13,12 +13,12 @@ public class Main {
         // SECCIÓN ALUMNOS
         // ==========================
         // Nota mental: estoy simulando actas de parcial de distintos cursos
-        Alumno ana = new Alumno("Facundo", 9, "3k10");
-        Alumno bruno = new Alumno("Alma", 10, "3k10");
-        Alumno celeste = new Alumno("Lautaro", 10, "3k10");
-        Alumno dario = new Alumno("Nicolas", 8, "3k09");
+        Alumno facu = new Alumno("Facundo", 9, "3k10");
+        Alumno alma = new Alumno("Alma", 10, "3k10");
+        Alumno lautaro = new Alumno("Lautaro", 10, "3k10");
+        Alumno nico = new Alumno("Nicolas", 8, "3k09");
 
-        List<Alumno> alumnos = List.of(ana, bruno, celeste, dario);
+        List<Alumno> alumnos = List.of(facu, alma, lautaro, nico);
 
         // Aprobados = nota >=7, me guardo solo el nombre en MAYÚSCULA y ordenado alfabéticamente
         List<String> aprobados = alumnos.stream()
